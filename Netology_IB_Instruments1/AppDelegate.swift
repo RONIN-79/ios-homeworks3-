@@ -1,19 +1,19 @@
 //
 //  AppDelegate.swift
-//  Netology_IB_Instruments1
+//  Netology_IB_Instruments
 //
-//  Created by MacBook on 25.02.2022.
+//  Created by MacBook on 03.02.2022.
 //
 
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+       
         return true
     }
 

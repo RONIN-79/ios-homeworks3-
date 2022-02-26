@@ -8,15 +8,15 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Profile View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController id="Y6W-OH-hqX" customClass="ProfileViewController" customModule="Netology_IB_Instruments1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dv2-of-bZo" customClass="ProfileView" customModule="Netology_IB_Instruments1" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l0X-r1-T9f" customClass="ProfileView" customModule="Netology_IB_Instruments1" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="54" width="414" height="808"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
@@ -24,16 +24,20 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Dv2-of-bZo" secondAttribute="trailing" id="1Th-ig-TJb"/>
-                            <constraint firstItem="Dv2-of-bZo" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="10" id="AEb-O7-UKL"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Dv2-of-bZo" secondAttribute="bottom" id="P5M-le-7e4"/>
-                            <constraint firstItem="Dv2-of-bZo" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="zIl-rE-M53"/>
+                            <constraint firstItem="l0X-r1-T9f" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="bhG-3g-GTu"/>
+                            <constraint firstItem="l0X-r1-T9f" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="10" id="fWU-pI-c1r"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="l0X-r1-T9f" secondAttribute="trailing" id="ypO-hg-y8r"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="l0X-r1-T9f" secondAttribute="bottom" id="z9N-xW-nFj"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ProfileView" destination="l0X-r1-T9f" id="rqI-Mn-nAj"/>
+                        <outlet property="profileView" destination="l0X-r1-T9f" id="Oj4-Tg-ScD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-13.043478260869566" y="39.508928571428569"/>
+            <point key="canvasLocation" x="-13.043478260869566" y="53.571428571428569"/>
         </scene>
     </scenes>
     <resources>

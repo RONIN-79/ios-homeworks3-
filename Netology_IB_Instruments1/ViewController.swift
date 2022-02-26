@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Netology_IB_Instruments1
+//  Netology_IB_Instruments
 //
-//  Created by MacBook on 25.02.2022.
+//  Created by MacBook on 03.02.2022.
 //
 
 import UIKit
