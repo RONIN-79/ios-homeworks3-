@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jC2-vE-gIg" customClass="ProfileView" customModule="Netology_IB_Instruments1" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dv2-of-bZo" customClass="ProfileView" customModule="Netology_IB_Instruments1" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="54" width="414" height="808"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
@@ -24,10 +24,10 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="jC2-vE-gIg" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="10" id="8hv-cv-S8F"/>
-                            <constraint firstItem="jC2-vE-gIg" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="VJs-NM-eTF"/>
-                            <constraint firstItem="jC2-vE-gIg" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="lfv-nv-80l"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="jC2-vE-gIg" secondAttribute="bottom" id="ta9-cA-PRN"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Dv2-of-bZo" secondAttribute="trailing" id="1Th-ig-TJb"/>
+                            <constraint firstItem="Dv2-of-bZo" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="10" id="AEb-O7-UKL"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Dv2-of-bZo" secondAttribute="bottom" id="P5M-le-7e4"/>
+                            <constraint firstItem="Dv2-of-bZo" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="zIl-rE-M53"/>
                         </constraints>
                     </view>
                 </viewController>
